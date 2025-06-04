@@ -3,7 +3,7 @@
 1.Create a new .NET MAUI application in Visual Studio.
 2.Syncfusion .NET MAUI components are available in [nuget.org.](https://www.nuget.org/)
 3.To add SfDockLayout to your project, open the NuGet package manager in Visual Studio, search for Syncfusion.Maui.Core and then install it.
-Initialize [SfDockLayout.]()
+Initialize `SfDockLayout.`
 
 ###### Xaml
 ```xaml
@@ -67,7 +67,7 @@ namespace DockLayoutSample
 ```
 
 ### Set Dock Position for Child Views
-Inside the [SfDockLayout]() control, child views can be arranged using the [Dock]() attached property. This property allows to dock elements to specific edges— `Top`, `Bottom`, `Left`, `Right`, or set to `None` to remain undocked and fill the remaining space.
+Inside the `SfDockLayout` control, child views can be arranged using the `Dock` attached property. This property allows to dock elements to specific edges— `Top`, `Bottom`, `Left`, `Right`, or set to `None` to remain undocked and fill the remaining space.
 
 
 ###### Xaml
