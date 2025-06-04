@@ -8,8 +8,8 @@
     <ContentPage.Content>
         <dx:SfDockLayout Margin="20" ShouldExpandLastChild="True">
             <Label Text="Left"  WidthRequest="80" dx:SfDockLayout.Dock="Left" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Background="#E57373" />
-            <Label Text="Top" HeightRequest="80" dx:SfDockLayout.Dock="Top" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Background="#F06292" />
             <Label Text="Right"  WidthRequest="80"  dx:SfDockLayout.Dock="Right" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Background="#BA68C8" />
+            <Label Text="Top" HeightRequest="80" dx:SfDockLayout.Dock="Top" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Background="#F06292" />
             <Label Text="Bottom" HeightRequest="80"  dx:SfDockLayout.Dock="Bottom" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Background="#9575CD"/>
             <Label Text="None" dx:SfDockLayout.Dock="Top" MinimumHeightRequest="80" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" BackgroundColor="#64B5F6" />
         </dx:SfDockLayout>
