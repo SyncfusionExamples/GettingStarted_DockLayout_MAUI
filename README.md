@@ -1,9 +1,9 @@
 # Getting started with Syncfusion .NET MAUI DockLayout control
-## Creating an application with .NET MAUI chart
-1.Create a new .NET MAUI application in Visual Studio.
-2.Syncfusion .NET MAUI components are available in [nuget.org.](https://www.nuget.org/)
-3.To add SfDockLayout to your project, open the NuGet package manager in Visual Studio, search for Syncfusion.Maui.Core and then install it.
-Initialize `SfDockLayout.`
+## Creating an application with DockLayout
+1. Create a new .NET MAUI application in Visual Studio.
+2. Syncfusion .NET MAUI components are available in [nuget.org.](https://www.nuget.org/)
+3. To add SfDockLayout to your project, open the NuGet package manager in Visual Studio, search for Syncfusion.Maui.Core and then install it.
+4. Initialize `SfDockLayout.`
 
 ###### Xaml
 ```xaml
@@ -69,7 +69,6 @@ namespace DockLayoutSample
 ### Set Dock Position for Child Views
 Inside the `SfDockLayout` control, child views can be arranged using the `Dock` attached property. This property allows to dock elements to specific edges— `Top`, `Bottom`, `Left`, `Right`, or set to `None` to remain undocked and fill the remaining space.
 
-
 ###### Xaml
 ```xaml
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
@@ -113,5 +112,12 @@ namespace DockLayoutGettingStarted
     }
 }
 ```
+### Output
 
 ![Output of DockLayout View](DockLayout-Images/maui-docklayout-getting-started.png)
+
+## Troubleshooting
+
+### Path Too Long Exception
+
+If you are facing a "Path too long" exception when building this example project, close Visual Studio and rename the repository to a shorter name before building the project.
