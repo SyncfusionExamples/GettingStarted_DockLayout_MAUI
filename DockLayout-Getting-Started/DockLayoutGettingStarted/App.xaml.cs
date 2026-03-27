@@ -1,4 +1,6 @@
-﻿namespace DockLayoutGettingStarted
+﻿using Microsoft.Extensions.DependencyInjection;
+
+namespace DockLayoutGettingStarted
 {
     public partial class App : Application
     {
